@@ -34,4 +34,92 @@ p,
 a {
   font-family: "Karla", sans-serif;
   font-size: 1.6rem;
+  line-height: 2;
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+}
+
+button {
+  font-family: "Karla", sans-serif;
+  font-size: 1.6rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  height: 4rem;
+  width: 15rem;
+}
+
+.button_primary {
+  color: hsl(256deg, 26%, 20%);
+  border: 2px solid hsl(256deg, 26%, 20%);
+  background-color: rgba(45, 38, 64, 0);
+}
+
+.button_secondary {
+  color: hsl(0deg, 0%, 98%);
+  border: 2px solid hsl(0deg, 0%, 98%);
+  background-color: rgba(250, 250, 250, 0);
+}
+
+.container {
+  width: 80vw;
+  margin: 0 auto;
+}
+
+header {
+  height: 8rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+
+.nav_item {
+  text-transform: uppercase;
+  color: hsl(273deg, 4%, 51%);
+  font-weight: 700;
+}
+
+.banner {
+  width: 100%;
+  height: 60rem;
+  background-color: hsl(256deg, 26%, 20%);
+  display: flex;
+  align-items: center;
+  color: hsl(0deg, 0%, 98%);
+}
+.banner .container {
+  height: 100%;
+  display: flex;
+  gap: 3rem;
+}
+.banner img {
+  position: relative;
+  top: 10%;
+}
+
+.banner_content {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.banner_content h1 {
+  margin-bottom: 2rem;
+}
+.banner_content h1::before {
+  content: "";
+  display: block;
+  height: 1px;
+  width: 15rem;
+  position: absolute;
+  top: 20%;
+  background-color: hsl(0deg, 0%, 98%);
 }/*# sourceMappingURL=style.css.map */

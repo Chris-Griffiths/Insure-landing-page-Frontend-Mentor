@@ -48,4 +48,106 @@ p,
 a {
     font-family: 'Karla', sans-serif;
     font-size: 1.6rem;
+    line-height: 2;
+    font-weight: 400;
+}
+
+a {
+    text-decoration: none;
+}
+
+// Buttons //
+
+button {
+    font-family: 'Karla', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    height: 4rem;
+    width: 15rem;
+}
+
+.button_primary {
+    color: $dark-violet;
+    border: 2px solid $dark-violet;
+    background-color: rgba($color: $dark-violet, $alpha: 0);
+}
+
+.button_secondary {
+    color: $very-light-grey;
+    border: 2px solid $very-light-grey;
+    background-color: rgba($color: $very-light-grey, $alpha: 0);
+}
+
+// Utility Classes // 
+
+.container {
+    width: 80vw;
+    margin: 0 auto;
+}
+
+// Navigation //
+header {
+    height: 8rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+.nav_item {
+    text-transform: uppercase;
+    color: $dark-grey-violet;
+    font-weight: 700;
+}
+
+// Banner // 
+
+.banner {
+    width: 100%;
+    height: 60rem;
+    background-color: $dark-violet;
+    display: flex;
+    align-items: center;
+    color: $very-light-grey;
+
+
+    .container {
+        height: 100%;
+        display: flex;
+        gap: 3rem;
+    }
+
+    img {
+        position: relative;
+        top: 10%;
+    }
+}
+
+.banner_content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    h1 {
+        margin-bottom: 2rem;
+    }
+
+    h1::before {
+        content: '';
+        display: block;
+        height: 1px;
+        width: 15rem;
+        position: absolute;
+        // left: 0;
+        top: 20%;
+        background-color: $very-light-grey;
+
+    }
 }
