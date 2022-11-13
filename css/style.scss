@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+// Variables //
+// --------- //
+
+// Primary Colours
+$dark-violet: hsl(256, 26%, 20%);
+$grey-blue: hsl(216, 30%, 68%);
+
+// Neutral Colours
+$very-dark-violet: hsl(270, 9%, 17%);
+$dark-grey-violet: hsl(273, 4%, 51%);
+$very-light-grey: hsl(0, 0%, 98%);
+
+
+// Typography //
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'DM Serif Display', serif;
+    font-weight: 400;
+}
+
+h1 {
+    font-size: 7.2rem;
+    line-height: 0.9;
+}
+
+h2 {
+    font-size: 5.6rem;
+    line-height: 1;
+}
+
+h3 {
+    font-size: 2.7rem;
+    line-height: 1;
+}
+
+p,
+a {
+    font-family: 'Karla', sans-serif;
+    font-size: 1.6rem;
+}
